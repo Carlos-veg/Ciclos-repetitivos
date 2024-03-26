@@ -1,0 +1,24 @@
+def main():
+    ciclo = True
+    while ciclo:
+        opcion = int(input("MENU PRINCIPAL:\n1. PERSONAS.\n2. VEHICULOS.\n3. UNIVERSIDADES.\n4. NOTAS.\n5. SALIR\nDIGITA UNA OPCION: "))
+        
+        if opcion == 1:
+            print("SELECCIONASTE LA OPCION PERSONAS")
+        elif opcion == 2:
+            print("SELECCIONASTE LA OPCION VEHICULOS")
+        elif opcion == 3:
+            print("SELECCIONASTE LA OPCION UNIVERSIDADES")
+        elif opcion == 4:
+            print("SELECCIONASTE LA OPCION NOTAS")
+        elif opcion == 5:
+            print("HASTA LUEGO")
+            ciclo = False
+        else:
+            print("HAS DIGITADO UNA OPCION INVALIDA")
+
+if __name__ == "__main__":
+    main()
+
+
+
